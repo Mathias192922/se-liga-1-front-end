@@ -3,15 +3,14 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-image: url("frutasbg.webp");
+    background-image: url("background.webp");
 }
 
-aqui é o header {
+header {
     background-color: #6cb865;
     color: white;
     text-align: center;
-    padding: 1000px 0;
-    background-image: url("frutasbackground.png");
+    padding: 10px 0;
 }
 
 header h1 {
@@ -45,7 +44,7 @@ nav a:hover {
     color: #ddd;
 }
 
-produtos {
+.produtos {
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -79,7 +78,7 @@ produtos {
     color: #e5564d;
     font-size: 1.2em;
     margin-top: 10px;
-
+}
 
 p {
     line-height: 1.6;
